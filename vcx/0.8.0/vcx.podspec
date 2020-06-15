@@ -69,7 +69,7 @@ from Objective-C.
   # spec.platform     = :ios, "5.0"
 
   #  When using multiple platforms
-  # spec.ios.deployment_target = "5.0"
+  spec.ios.deployment_target = "12.0"
   # spec.osx.deployment_target = "10.7"
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"
@@ -96,6 +96,10 @@ from Objective-C.
   #spec.exclude_files = "Classes/Exclude"
 
   spec.public_header_files = "vcx/vcx.framework/Headers/*.h"
+
+  spec.ios.vendored_frameworks="vcx/vcx.framework"
+  #spec.ios.vendored_library = "vcx/vcx.framework/test"
+  spec.compiler_flags = "-ObjC"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
