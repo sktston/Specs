@@ -81,7 +81,7 @@ from Objective-C.
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :http => "http://13.125.219.189/repository/libraries/ios/vcx.libvcxall_20200608.1105_universal.zip" }
+  spec.source       = { :http => "http://13.125.219.189/repository/libraries/ios/vcx.libvcxall_20200617.1450_universal.zip" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -98,7 +98,6 @@ from Objective-C.
   spec.public_header_files = "vcx/vcx.framework/Headers/*.h"
 
   spec.ios.vendored_frameworks="vcx/vcx.framework"
-  #spec.ios.vendored_library = "vcx/vcx.framework/test"
   spec.compiler_flags = "-ObjC"
 
 
