@@ -81,7 +81,7 @@ from Objective-C.
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :http => "http://13.125.219.189/repository/libraries/ios/vcx.libvcxall_20200625.1836_universal.zip" }
+  spec.source       = { :http => "http://13.125.219.189/repository/libraries/ios/vcx.libvcxall_20200625.1912_universal.zip" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
