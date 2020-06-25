@@ -69,7 +69,7 @@ from Objective-C.
   # spec.platform     = :ios, "5.0"
 
   #  When using multiple platforms
-  spec.ios.deployment_target = "12.0"
+  spec.ios.deployment_target = "13.0"
   # spec.osx.deployment_target = "10.7"
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"
@@ -81,7 +81,7 @@ from Objective-C.
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :http => "http://13.125.219.189/repository/libraries/ios/vcx.libvcxall_20200617.1450_universal.zip" }
+  spec.source       = { :http => "http://13.125.219.189/repository/libraries/ios/vcx.libvcxall_20200625.1748_universal.zip" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
