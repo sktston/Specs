@@ -92,12 +92,12 @@ from Objective-C.
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "vcx/vcx.framework/Headers/*.h"
+  spec.source_files  = "vcx.framework/Headers/*.h"
   #spec.exclude_files = "Classes/Exclude"
 
-  spec.public_header_files = "vcx/vcx.framework/Headers/*.h"
+  spec.public_header_files = "vcx.framework/Headers/*.h"
 
-  spec.ios.vendored_frameworks="vcx/vcx.framework"
+  spec.ios.vendored_frameworks="vcx.framework"
   spec.compiler_flags = "-ObjC"
 
 
